@@ -1,0 +1,177 @@
+body {
+  grid-template-rows: 86px minmax(calc(100vh - 86px - 429px), auto) 429px;
+}
+
+main .content-section {
+  margin: 40px 16px;
+}
+
+main .content-section .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  line-height: normal;
+}
+
+main .content-section div .copy {
+  font-size: 1rem !important;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+main .content-section .contact-container {
+  margin-top: 40px;
+}
+
+main .content-section .contact-container form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+main .content-section .contact-container form :is(input, textarea) {
+  padding: 12px 16px;
+  border: 1px solid var(--website-grey);
+  border-radius: 4px;
+}
+
+main .content-section .contact-container form :is(input[name="vorname"], input[name="email"], input[name="nachname"], input[name="phone"], textarea, button) {
+  grid-column: 1/-1;
+}
+
+main .content-section .contact-container form button {
+  margin-top: 8px;
+  background: var(--website-opacified-grey);
+  border: none;
+  border-radius: 4px;
+  padding: 16px 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out, background 0.25s ease-in-out;
+}
+
+main .content-section .contact-container form button::before {
+  content: url('../assets/icons/mail.png');
+  height: 23px;
+}
+
+main .content-section .contact-container form button:hover {
+  transform: scale(1.02);
+  background: var(--website-beige);
+}
+
+main .content-section .contact-container form button:active {
+  transform: scale(0.98);
+  background: var(--website-beige);
+}
+
+main .content-section .contact-container form #form-feedback-container {
+  grid-column: 1/-1;
+  font-family: "Montserrat", serif;
+  font-size: 1rem;
+  color: var(--website-black);
+  border-radius: 4px;
+  margin-top: 12px;
+  padding: 12px 24px;
+  background: var(--website-opacified-grey);
+}
+
+main .content-section .contact-container form .successful-feedback {
+  background: rgba(166, 236, 166, 0.25) !important;
+}
+
+main .content-section .contact-container form .unsuccessful-feedback {
+  background: rgba(236, 166, 166, 0.25) !important;
+}
+
+@media (min-width: 768px) {
+  body {
+    grid-template-rows: 200px minmax(calc(100vh - 200px - 200px), auto) 200px;
+  }
+
+  main .content-section {
+    margin: 40px;
+  }
+}
+
+@media (min-width: 850px) {
+  #contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  #contact-form :is(input[name="vorname"], input[name="email"]) {
+    grid-column: 1/2;
+  }
+
+  #contact-form :is(input[name="nachname"], input[name="phone"], button) {
+    grid-column: 2/3;
+  }
+
+  #contact-form textarea {
+    grid-column: 1/-1;  
+  }
+
+  #contact-form button {
+    width: fit-content;
+    justify-self: end;
+  }
+}
+
+@media (min-width: 1150px) {
+  body {
+    grid-template-rows: 176px minmax(calc(100vh - 176px - 200px), auto) 200px;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: var(--website-white);
+  }
+
+  main .content-section {
+    margin: 64px;
+  }
+
+  main .content-section .title {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+  }
+
+  main .content-section div .copy {
+    font-size: 1.25rem !important;
+  }
+
+  main .content-section .contact-container {
+    margin-top: 40px;
+  }
+
+  main .content-section .contact-container form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main .content-section .contact-container form :is(input[name="vorname"], input[name="email"]) {
+    grid-column: 1/2;
+  }
+
+  main .content-section .contact-container form :is(input[name="nachname"], input[name="phone"], button) {
+    grid-column: 2/3;
+  }
+
+  main .content-section .contact-container form :is(input, textarea) {
+    font-size: 1.25rem;
+  }
+
+  main .content-section .contact-container form button {
+    font-size: 1.25rem;
+    width: fit-content;
+    justify-self: end;
+  }
+}

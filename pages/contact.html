@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../styles/contact.css" type="text/css">
+    <link rel="stylesheet" href="../index.css" type="text/css">
+    <title>Pflegeberatung Yavuz</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="navbar">
+                <h1 class="logo" data-translate="website-title">Pflegeberatung Yavuz</h1>
+                <ul class="menu">
+                    <div class="links">
+                        <div class="close-btn">
+                            <span></span>
+                            <span></span>
+                          </div>
+                        <li><a href="../index.html" data-translate="nav-home">Angebot</a></li>
+                        <li><a href="./about.html" data-translate="nav-about">Über mich</a></li>
+                        <li><a href="./pflegeberatung.html" data-translate="nav-care-consultation">Pflegeberatung</a></li>
+                        <li><a class="active" data-translate="nav-contact">Kontakt</a></li>
+                    </div>
+                    <div class="horizontal-separator"></div>
+                    <div class="language-toggle">
+                        <button id="btn-de" class="active lang" data-lang="de">DE</button>
+                        <div class="vertical-separator"></div>
+                        <button id="btn-tr" class="lang" data-lang="tur">TUR</button>
+                    </div>
+                </ul>
+                <div class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+            <div class="language-toggle-2">
+                <button id="btn-de" class="active lang" data-lang="de">DE</button>
+                <div class="vertical-separator"></div>
+                <button id="btn-tr" class="lang" data-lang="tur">TUR</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content-section">
+            <div>
+                <p class="title" data-translate="contact-title">Ich bin für Sie da – schreiben Sie mir einfach!</p>
+                <p class="copy" data-translate="contact-subtitle">
+                    Haben Sie Fragen oder benötigen Unterstützung? Füllen Sie das Kontaktformular aus, und ich melde mich schnellstmöglich bei Ihnen.
+                </p>
+                <div class="contact-container">
+                    <form method="POST" id="contact-form">
+                        <!-- Web3Forms configuration -->
+                        <input type="hidden" name="access_key" value="24525426-7dcd-4e02-8e9c-813eb4b62b63">
+                        <input type="hidden" name="subject" value="Neue Kontaktanfrage für Yavuz Pflegeberatung">
+                        <input type="hidden" name="from_name" value="Website - Yavuz Pflegeberatung">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <!-- Custom form data -->
+                        <input type="text" name="vorname" placeholder="Vorname *" data-placeholder-de="Vorname *" data-placeholder-tur="İlk isim *" required>
+                        <input type="text" name="nachname" placeholder="Nachname *" data-placeholder-de="Nachname *" data-placeholder-tur="Soyadı *" required>
+                        <input type="email" name="email" placeholder="Email-Adresse *" data-placeholder-de="Email-Adresse *" data-placeholder-tur="E-posta adresi *" required>
+                        <input type="tel" name="phone" placeholder="Telefonnummer *" data-placeholder-de="Telefonnummer *" data-placeholder-tur="Telefon numarası *" required>
+                        <textarea name="message" rows="5" pattern="[0-9]{4}-[0-9]{8}" placeholder="Wie kann ich Ihnen helfen? *" data-placeholder-de="Wie kann ich Ihnen helfen? *" data-placeholder-tur="Size nasıl yardımcı olabilirim? *" required></textarea>
+                        <button type="submit" data-translate="contact-btn">Jetzt Kontakt aufnehmen</button>
+
+                        <!-- Custom success message after submission -->
+                        <div id="form-feedback-container" style="display: none"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="availability-information">
+            <img src="../assets/pictures/profile-footer.png" alt="Ayfer Foto">
+            <div>
+                <p data-translate="footer-availability-title">Erreichbarkeit</p>
+                <p data-translate="footer-availability-friday">Mo - Fr von 9 - 18 Uhr</p>
+                <p data-translate="footer-availability-saturday">Samstag von 10 - 14 Uhr</p>
+            </div>
+            <div>
+                <p data-translate="footer-phone-title">Telefonnummer</p>
+                <p>+49 176 845 225 03</p>
+            </div>
+        </div>
+        <div class="regulatory-links">
+            <a href="#" data-translate="footer-imprint">Impressum</a>
+            <a href="#" data-translate="footer-privacy">Datenschutz</a>
+        </div>
+    </footer>
+    <script src="../index.js" defer></script>
+    <script src="../form-submission.js" defer></script>
+</body>
+</html>

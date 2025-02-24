@@ -1,0 +1,394 @@
+main {
+    background: var(--website-white);
+}
+
+main .hero-image-section {
+    background: no-repeat url(../assets/pictures/senioren-paar.png);
+    background-size: cover;
+    background-position-x: 20%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+main .hero-image-section div {
+    width: 100%;
+    margin: 0 1rem 1rem 1rem;
+    background:  rgb(250 242 233 / 75%);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 16px;
+    text-align: left;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+main .hero-image-section div p {
+    margin-bottom: 4px;
+    font-size: 2rem;
+}
+
+main .hero-image-section div button {
+    width: inherit;
+    margin-top: 24px;
+    transition: transform 0.25 ease-in-out;
+    background: var(--website-white);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+main .hero-image-section div button:hover {
+    transform: scale(1.02);
+}
+
+main .hero-image-section div button:active {
+    transform: scale(0.98);
+}
+
+main .hero-image-section div button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+main .hero-image-section div button a::before {
+    content: url(../assets/icons/mail.png);
+    height: 23px;
+}
+
+main .service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 40px 16px;
+    background: var(--website-beige);
+}
+
+main .service-section .service-title {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+main .service-section .service-title p {
+    font-size: 2rem;
+}
+
+main .service-section .service-description {
+    display: flex;
+    align-items: center;
+    font-weight: 1rem;
+    line-height: 150%;
+}
+
+main .content-section {
+    margin: 40px 16px;
+}
+
+main .content-section > div{
+    margin-bottom: 40px;
+}
+
+main .content-section .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+main .content-section .subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .content-section :is(.title, .subtitle) {
+    font-weight: 600;
+}
+
+main .content-section li {
+    margin-left: 1.5rem;
+}
+
+main .content-section li:not(:nth-last-child(1)) {
+    margin-bottom: 1.5rem;
+}
+
+main .content-section .highlight-section {
+    width: 100%;
+    padding: 40px 16px;
+    background: var(--website-beige);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .content-section .highlight-section .care-categories {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main .content-section .highlight-section .care-categories > div {
+    background: var(--website-white);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+
+main .content-section .highlight-section .care-categories > div >.bold-copy:not(:is([data-translate="highlight-1-card-2-2"], [data-translate="highlight-1-card-3-1"])) {
+    font-size: 2rem;
+}
+
+main .content-section .highlight-section .attention-icon {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+main .content-section .highlight-section .attention-icon::before {
+    content: url(../assets/icons/achtung.png);
+    height: 40px;
+    margin-right: 4px;
+}
+
+main .content-section .highlight-section .title-margin {
+    margin-bottom: 12px;
+    align-self: flex-start;
+}
+
+main .content-section .sub-section-margin {
+    margin-bottom: 24px !important;
+}
+
+main .content-section .outline-section {
+    padding: 40px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--website-grey);
+}
+
+main .content-section .outline-section p {
+    display: flex;
+    flex-direction: row;
+}
+
+main .content-section .outline-section p span:first-child {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+main .content-section .outline-section p span:first-child::before {
+    content: url(../assets/icons/info.png);
+    height: 40px;
+    margin-right: 4px;
+}
+
+main .content-section hr {
+    height: 1px;
+    margin: 64px 0;
+    background: var(--website-grey);
+    border: none;
+}
+
+main .content-section .contact-sub-section {
+    display: flex;
+    flex-direction: column;
+}
+
+main .content-section .contact-sub-section p {
+    text-align: center;
+}
+
+main .content-section .contact-sub-section button {
+    transition: transform 0.25 ease-in-out;
+}
+
+main .content-section .contact-sub-section button:hover {
+    transform: scale(1.02);
+}
+
+main .content-section .contact-sub-section button:active {
+    transform: scale(0.98);
+}
+
+main .content-section .contact-sub-section button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+main .content-section .contact-sub-section button a::before {
+    content: url(../assets/icons/mail.png);
+    display: flex;
+    height: 23px;
+}
+
+@media (min-width: 500px) {
+    main .contact-sub-section {
+        align-items: center;
+    }
+
+    main .contact-sub-section button {
+        width: fit-content;
+    }
+
+    main .hero-image-section {
+        justify-content: flex-end;
+    }
+
+    main .hero-image-section div {
+        width: auto;
+    }
+
+    main .hero-image-section div button {
+        width: fit-content;
+    }
+
+    main .care-categories {
+        max-width: 280px;
+        align-self: center;
+    }
+}
+
+@media (min-width: 768px) {
+    main .hero-image-section div {
+        margin: 40px;
+    }
+
+    main .hero-image-section div p {
+        font-size: 40px;
+    }
+
+    main .service-section {
+        padding: 40px;
+    }
+
+    main .content-section {
+        margin: 40px;
+    }
+
+    main .content-section :is(.highlight-section, .outline-section) {
+        padding: 40px;
+    }
+
+    main .content-section .highlight-section .care-categories > div {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 820px) {
+    main .content-section .highlight-section .care-categories {
+        flex-direction: row;
+        max-width: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .copy, 
+    .copy span,
+    .service-description p,
+    li span,
+    .care-categories span,
+    button a {
+        font-size: 20px;
+    }
+
+    main .hero-image-section {
+        background-size: auto;
+        height: 800px;
+        justify-content: end;
+    }
+
+    main .hero-image-section div {
+        background: var(--website-beige);
+        font-size: 64px;
+        font-weight: 600;
+        padding: 40px;
+        text-align: left;
+        margin: 0px 64px 64px 0;
+        display: inherit;
+    }
+
+    main .hero-image-section div p {
+        font-size: 64px;
+    }
+
+    main .service-section {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding: 0px;
+    }
+
+    main .service-section .service-title {
+        margin-bottom: 0;
+        padding: 40px 40px 40px 64px;
+    }
+
+    main .service-section .service-title p {
+        font-size: 40px;
+    }
+
+    main .service-section .service-description {
+        background-color: var(--website-white);
+        padding: 40px 64px 40px 40px;
+    }
+
+    main .content-section {
+        margin: 64px;
+    }
+
+    main .content-section > div{
+        margin-bottom: 64px;
+    }
+
+    main .content-section .title {
+        font-size: 40px;
+    }
+
+    main .content-section .subtitle {
+        font-size: 24px;
+    }
+
+    main .content-section li:not(:nth-last-child(1)) {
+        margin-bottom: 24px;
+    }
+
+    main .content-section .highlight-section {
+        padding: 40px 160px;
+    }
+
+    main .content-section .highlight-section .care-categories {
+        margin-top: 24px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    main .content-section .highlight-section .care-categories > div {
+        min-width: max-content;
+        padding: 40px;
+    }
+
+    main .content-section .highlight-section .care-categories > div > .bold-copy:not(:is([data-translate="highlight-1-card-2-2"], [data-translate="highlight-1-card-3-1"])) {
+        font-size: 40px;
+        margin: 16px 0;
+    }
+
+    main .content-section .outline-section {
+                padding: 40px 160px;
+    }
+}

@@ -1,0 +1,266 @@
+main .hero-section {
+  display: flex;
+  flex-direction: column-reverse;
+  background: var(--website-beige);
+}
+
+main .hero-section div {
+  padding: 40px 16px;
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .hero-section div p {
+  font-size: 32px;
+}
+
+main .hero-section div p:first-child {
+  margin-bottom: 24px;
+}
+
+main .hero-section div p span {
+  font-size: 32px;
+  line-height: 100%;
+}
+
+main .hero-section img {
+  width: 100vw;
+  object-fit: contain;
+}
+
+main .content-section {
+  margin: 40px 16px;
+} 
+
+main .content-section > div {
+  margin-bottom: 40px;
+}
+
+main .content-section > div:has( > .title + ul) {
+  margin-bottom: 72px !important;
+}
+
+main .content-section .title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+main .content-section .title:has(+ ul) {
+  margin-bottom: 56px;
+}
+
+main .content-section ul {
+  position: relative;
+  list-style: none;
+  padding-left: 40px;
+}
+
+main .content-section ul:before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: 10px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid var(--website-grey);
+}
+
+main .content-section ul li {
+  position: relative;
+  height: 40px;
+}
+
+main .content-section ul li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+main .content-section ul li::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  width: 10px;
+}
+
+main .content-section ul li::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  left: -32px;
+  width: 2px;
+  height: 2px;
+  border: 2px solid var(--website-grey);
+  border-radius: 50%;
+  background-color: var(--website-grey);
+  outline: 12px solid var(--website-white);
+}
+
+main .content-section ul li.current-job::before {
+  border-left: 2px solid var(--website-black);
+  top: 24px;
+}
+
+main .content-section ul li.current-job::after {
+  content: '';
+  padding-top: 1px;
+  top: 9px;
+  left: -32px;
+  width: 2px;
+  height: 1px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid var(--website-black);
+  background-color: var(--website-black);
+}
+
+main .content-section .highlight-section {
+  padding: 40px 16px;
+  background: var(--website-beige);
+  border-radius: 4px;
+  display: flex;
+  text-align: center;
+}
+
+main .content-section .contact-sub-section {
+  display: flex;
+  flex-direction: column;
+}
+
+main .content-section .contact-sub-section button {
+  transition: transform 0.25 ease-in-out;
+}
+
+main .content-section .contact-sub-section button:hover {
+  transform: scale(1.02);
+}
+
+main .content-section .contact-sub-section button:active {
+  transform: scale(0.98);
+}
+
+main .content-section .contact-sub-section button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+main .content-section .contact-sub-section button a::before {
+  content: url("../assets/icons/mail.png");
+  display: flex;
+  height: 23px;
+}
+
+@media (max-width: 408px) {
+  main .content-section ul li {
+    height: 60px;
+  }
+}
+
+@media (min-width: 500px) {
+  .contact-sub-section {
+    align-items: center;
+  }
+
+  .contact-sub-section button {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 768px) {
+  main .content-section {
+    margin: 40px;
+  }
+
+  main .hero-section div {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 820px) {
+  .hero-section > div {
+    position: absolute;
+    background: rgb(250 242 233 / 75%);
+    border-radius: 4px;
+    margin: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .copy {
+    font-size: 20px;
+  }
+
+  main {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: var(--website-white);
+  }
+
+  main .hero-section {
+    flex-direction: row;
+  }
+
+  main .hero-section div {
+    padding: 64px;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: none;
+    opacity: 1;
+    border-radius: 0px;
+    margin: 0px;
+  }
+
+  main .hero-section div p {
+    font-size: 40px;
+  }
+
+  main .hero-section div p:first-child {
+    margin-bottom: 24px;
+  }
+
+  main .hero-section div span {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  main .hero-section img {
+    object-fit: cover;
+  }
+
+  main .content-section {
+    margin: 64px;
+  }
+
+  main .content-section .title {
+    font-size: 40px;
+  }
+
+  main .content-section > div{
+    margin-bottom: 64px;
+  }
+
+  main .content-section > div:has( > .title + ul) {
+    margin-bottom: 80px !important;
+  }
+
+  main .content-section li span {
+    font-size: 20px;
+  }
+
+  main .content-section .highlight-section {
+    padding: 40px 160px;
+    align-items: center;
+  }
+
+  main .content-section .highlight-section button {
+    width: fit-content;
+  }
+}
