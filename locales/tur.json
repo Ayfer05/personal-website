@@ -1,7 +1,7 @@
 {
   "website-title": "Bakım Danışmanlık Yavuz",
 
-  "nav-home": "Teklif",
+  "nav-home": "Başlangıç",
   "nav-about": "Benim hakkımda",
   "nav-care-consultation": "Bakım danışmanlığı",
   "nav-contact": "Bize ulaşın",
@@ -83,15 +83,15 @@
   "faq-question-1": "Bakım danışmanlığı hizmeti nedir?",
   "faq-answer-1-1": "SGB XI Madde 37 Fıkra 3 uyarınca bakım danışmanlığı, sadece bakım parası alan bakıma muhtaç kişiler için zorunludur. Danışmanlık hizmeti belirli aralıklarla evinizde gerçekleşir:",
   "faq-answer-1-2": "Bakım seviyesi 2 ve 3 için her altı ayda bir, bakım seviyesi 4 ve 5 için her üç ayda bir.",
-  "faq-answer-1-3": "Ayakta bakım hizmetinden ayni yardım alan kişilerin danışmanlık hizmeti için başvurmaları gerekmez.",
+  "faq-answer-1-3": "Evde bakım hizmetinden yardım alan kişilerin danışmanlık hizmeti için başvurmaları gerekmez, ama yinede ücretsiz faydalanabilirler. ",
   "faq-answer-1-4": "Bakım seviyesi 1 olan kişiler de zorunlu danışmanlığa tabi değildir. Ancak danışmanlık seansları her altı ayda bir ücretsiz olarak talep edilebilir. Danışmanlık, evde bakımda kalite güvencesi amacına hizmet eder. Evde bakım hizmeti alan kişiler ve bakıcıları için bir yardım niteliğindedir ve isterlerse danışma sırasında uzman bakım talimatları veya destek de alabilirler. Gerekirse, bakım seviyesinin gözden geçirilmesi veya yükseltilmesi için tavsiyelerde de bulunulur.",
 
-  "faq-question-2": "Bakım danışmanlığı neden ücretsizdir?",
+  "faq-question-2": "Bakım danışmanlığı ücretlimidir?",
   "faq-answer-2-1": "Bakım danışmanlığı, bakıma muhtaç kişiler için ücretsizdir, çünkü bakım sigortası danışmanlık seanslarının masraflarını karşılamaktadır.",
-  "faq-answer-2-2": "Sigortalı bir kişi olarak, bir bakım servisinden, benim gibi kalifiye bir bakım uzmanından veya bir bakım destek merkezinden danışmanlık hizmeti alabilirsiniz.",
+  "faq-answer-2-2": "Bakım dereceli bir kişi olarak, bir bakım servisinden, benim gibi kalifiye bir bakım uzmanından veya bir bakım destek merkezinden danışmanlık hizmeti alabilirsiniz.",
 
   "faq-question-3": "Bakım danışmanlığı ne sıklıkta ve hangi aralıklarla yapılmalıdır?",
-  "faq-answer-3-1": "Bakım konsültasyonları arasındaki aralıklar bakım seviyesine bağlı olarak değişmektedir. Bu anlaşılabilir bir durumdur, çünkü bakım seviyesi yükseldikçe evde bakımın sağlanması için harcanan çaba ve sorumluluk da artar. Bu nedenle bakım danışmanlığı, bakım seviyesi 2 ve 3 için her altı ayda bir ve bakım seviyesi 4 ve 5 için her üç ayda bir talep edilmelidir. Bu süreler bakım sigortası tarafından belirlenir:",
+  "faq-answer-3-1": "Bakım danışmanlıkları arasındaki aralıklar bakım seviyesine bağlı olarak değişmektedir. Bu anlaşılabilir bir durumdur, çünkü bakım seviyesi yükseldikçe evde bakımın sağlanması için harcanan çaba ve sorumluluk da artar. Bu nedenle bakım danışmanlığı, bakım seviyesi 2 ve 3 için her altı ayda bir ve bakım seviyesi 4 ve 5 için her üç ayda bir gerçekleştirilmelidir. Bu süreler bakım sigortası tarafından belirlenir:",
   "faq-answer-3-2": "Lütfen yukarıdaki son tarihlerin danışmanlık seansının kendisi için değil, bu danışmanlık seansının kanıtlanması için geçerli olduğunu unutmayın. Bu, yılın ilk danışmanlık randevusu için kanıtın bakım derecesi 2 ve 3 için 30 Haziran'a kadar ve bakım derecesi 4 ve 5 için 31 Mart'a kadar bakım sigortası tarafından alınması gerektiği anlamına gelir.",
   
   "faq-question-4": "Bir danışmanlık randevusunu kaçırırsam ne olur?",
@@ -104,26 +104,25 @@
   "faq-question-6": "Bir bakım danışmanlığı seansı nasıl işler ve hangi konular ele alınır?",
   "faq-answer-6-1": "Mevcut bakım durumunuzu sizinle görüşecek ve bireysel ihtiyaçlarınıza bağlı olarak sizi desteklemenin ve aile bakıcılarının yükünü hafifletmenin yollarını arayacağız. Elbette danışma sırasında aklınıza takılan her türlü soruyu sorabilirsiniz.",
   "faq-answer-6-2": "Bu konular danışmanlığın bir parçası olabilir:",
-  "faq-answer-6-3": "Yardımcılara duyulan ihtiyaç (örn. rollator)",
-  "faq-answer-6-4": "Bakım yardımcıları ihtiyacı (bebek bezleri, dezenfektan, vb.)",
+  "faq-answer-6-3": "Bakım destekleyici malzemeler (örn. Yürüteç)",
+  "faq-answer-6-4": "Bakım yardımcıları ihtiyacı (hasta bezleri, dezenfektan, vb.)",
   "faq-answer-6-5": "Yaşam alanında uyarlamalar, örneğin banyo tadilatı",
   "faq-answer-6-6": "Evde acil durum çağrısı ihtiyacı",
   "faq-answer-6-7": "Bakım durumunun değerlendirilmesi",
   "faq-answer-6-8": "Varsa bakım seviyesinin yükseltilmesi",
-  "faq-answer-6-9": "Mola hizmetleri için fırsatları belirleyin",
+  "faq-answer-6-9": "Destek hizmetlerinin imkanlarını göstermek ",
   "faq-answer-6-10": "Bakıcının mevcut günlük durumuna ilişkin pratik ipuçları",
   
   "faq-question-7": "SGB XI Madde 37 (3) uyarınca bakım danışmanlığı nasıl doğrulanır?",
   "faq-answer-7": "Bakıma muhtaç kişi veya aile bakıcısı olarak, danışmanlık ziyaretinin kanıtını kendiniz sunmak zorunda değilsiniz. Sizinle birlikte danışmanlık ziyaretini gerçekleştiren kişi, “SGB XI Madde 37 Fıkra 3 uyarınca danışmanlık ziyareti kanıtı” formunu doldurur ve bakım sigortanıza gönderir.",
   
   "faq-question-8": "Bir danışmanlık ziyaretine nasıl hazırlanabilirim?",
-  "faq-answer-8-1": "Belgelerinizi hazır bulundurabilirsiniz. Bunlar arasında sigorta kartınız, bakım derecesi sertifikanız ve sahip olabileceğiniz tıbbi raporlar yer almaktadır.",
+  "faq-answer-8-1": "Belgelerinizi hazır bulundurabilirsiniz. Bunlar arasında sigorta kartınız, bakım derecesi kararı ve sahip olduğunuz tıbbi raporlar yer almaktadır.",
   "faq-answer-8-2": "Sorularınızı önceden not etme fırsatını değerlendirin.",
 
   "faq-highlight-title-1": "Sorunuz listede yok mu?",
-  "faq-highlight-title-2": "Lütfen bize haber verin!",
   
-  "contact-title": "Sizin için buradayım - sadece bana yazın!",
+  "contact-title": "Size destek olmak için buradayım - dilediğiniz zaman yazabilirsiniz!",
   "contact-subtitle": "Herhangi bir sorunuz mu var veya desteğe mi ihtiyacınız var? İletişim formunu doldurun, en kısa sürede size geri dönüş yapacağım.",
   "contact-btn": "Şimdi iletişime geçin",
 
