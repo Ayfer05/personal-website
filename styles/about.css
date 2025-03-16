@@ -9,6 +9,7 @@ main .hero-section div {
   display: inherit;
   flex-direction: column;
   justify-content: center;
+  hyphens: auto;
 }
 
 main .hero-section div p {
@@ -25,8 +26,8 @@ main .hero-section div p span {
 }
 
 main .hero-section img {
-  width: 100vw;
-  object-fit: contain;
+  width: 100%;
+  object-fit: cover;
 }
 
 main .content-section {
@@ -182,12 +183,18 @@ main .content-section .contact-sub-section button a::before {
   }
 }
 
-@media (min-width: 820px) {
-  .hero-section > div {
-    position: absolute;
-    background: rgb(250 242 233 / 75%);
-    border-radius: 4px;
-    margin: 40px;
+@media (min-width: 993px) {
+  main .hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main .hero-section div {
+    hyphens: none;
+  }
+
+  main .hero-section img {
+    height: 100%;
   }
 }
 
@@ -197,13 +204,15 @@ main .content-section .contact-sub-section button a::before {
   }
 
   main {
+    display: grid;
     grid-column: 2/3;
     grid-row: 2/3;
     background: var(--website-white);
   }
 
   main .hero-section {
-    flex-direction: row;
+    display: inherit;
+    grid-template-columns: 1fr 1fr;
   }
 
   main .hero-section div {
@@ -216,6 +225,13 @@ main .content-section .contact-sub-section button a::before {
     opacity: 1;
     border-radius: 0px;
     margin: 0px;
+  }
+
+  main .hero-section img {
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   main .hero-section div p {
