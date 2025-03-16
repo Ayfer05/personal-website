@@ -1,7 +1,7 @@
 {
   "website-title": "Pflegeberatung Yavuz",
 
-  "nav-home": "Angebot",
+  "nav-home": "Startseite",
   "nav-about": "Über mich",
   "nav-care-consultation": "Pflegeberatung",
   "nav-contact": "Kontakt",
@@ -57,25 +57,25 @@
 
   "home-highlight-3-title": "Wie geht es nun weiter?",
 
-  "about-hero-title-1": "Hallo, ich bin Ayfer Yavuz.",
-  "about-hero-title-2": "Mit jahrelanger Erfahrung in allen Bereichen der Pflege stehe Ihnen als vertrauensvolle und kompetente Ansprechpartnerin zur Seite.",
+  "about-hero-title-1": "Über mich",
+  "about-hero-title-2": "Mit jahrelanger Erfahrung in allen Bereichen der Pflege stehe ich Ihnen als vertrauensvolle und kompetente Ansprechpartnerin zur Seite.",
   "about-hero-title-3": "Ich biete Ihnen die beste Begleitung, die Ihre Bedürfnisse in den Mittelpunkt stellt.",
 
-  "about-section-1-title": "Über mich – Ihre Pflegeberaterin mit Erfahrung und Herz",
-  "about-section-1-copy": "Mein Name ist Ayfer Yavuz, und seit August 2024 bin ich als selbstständige Pflegeberaterin mit Zulassung zur anerkannten Beratungsstelle tätig. Ich unterstütze Sie kompetent bei Pflegeberatungseinsätzen gemäß § 37 Abs. 3 SGB XI.",
+  "about-section-1-title": "Ihre Pflegeberaterin mit Erfahrung und Herz",
+  "about-section-1-copy": "Mein Name ist Ayfer Yavuz und seit August 2024 bin ich als selbstständige Pflegeberaterin mit Zulassung zur anerkannten Beratungsstelle tätig. Ich unterstütze Sie kompetent bei Pflegeberatungseinsätzen gemäß § 37 Abs. 3 SGB XI.",
 
   "about-section-2-title": "Mein Weg in die Pflegeberatung",
-  "about-experience-1-description": "Ausbildung zur examinierten Krankenschwester",
+  "about-experience-1-description": "Berufsstart als examinierte Krankenschwester",
   "about-experience-2-description": "Weiterbildung zur Pflegeberaterin",
   "about-experience-3-description": "IHK-zertifizierte Ausbildung zur Kauffrau im Gesundheitswesen",
-  "about-experience-4-description": "Leitung von Hessens größter Tagespflege als Pflegedienstleitung",
+  "about-experience-4-description": "Weiterbildung zur Pflegedienstleitung zeitgleich zur Leitung von Hessens größter Tagespflege, Gutachterin für den Medizinischen Dienst und Beraterin auf Honorarbasis ",
   "about-experience-5-title": "Heute: ",
-  "about-experience-5-description": "Gutachterin für den Medizinischen Dienst und Beraterin auf Honorarbasis",
+  "about-experience-5-description": "Leitung einer Tagespflegeeinrichtung sowie Nebentätigkeit als freiberufliche Pflegeberaterin",
 
   "about-section-3-title": "Erfahrung, die zählt",
-  "about-section-3-copy": "Mit meiner langjährigen Berufserfahrung und hunderten durchgeführten Beratungen bin ich Ihre vertrauensvolle Ansprechpartnerin. Mein Ziel ist es, Ihnen die bestmögliche Unterstützung zu bieten – mit Kompetenz, Einfühlungsvermögen und Herz.",
+  "about-section-3-copy": "Mit meiner langjährigen Berufserfahrung und hunderten von durchgeführten Beratungen bin ich Ihre vertrauensvolle Ansprechpartnerin. Mein Ziel ist es, Ihnen die bestmögliche Unterstützung zu bieten – mit Kompetenz, Einfühlungsvermögen und Herz.",
 
-  "about-highlight-title": "Individuelle Pflege-Lösung gesucht?",
+  "about-highlight-title": "Individuelle Beratung gesucht?",
 
   "faq-title": "Häufig gestellte Fragen",
   "faq-subtitle": "Hier finden Sie klar und verständlich die häufigsten Fragen und Antworten rund um die Pflegeberatung, um Unsicherheiten zu klären und Ihre Pflege optimal zu gestalten.",
@@ -84,9 +84,9 @@
   "faq-answer-1-1": "Die Pflegeberatung nach § 37 Abs. 3 SGB XI ist für Pflegebedürftige, die ausschließlich Pflegegeld erhalten, verpflichtend. Die Beratung findet in festen Intervallen in ihrer Häuslichkeit statt:",
   "faq-answer-1-2": "Halbjährlich einmal für Pflegegrad 2 und 3, vierteljährlich einmal für Pflegegrad 4 und 5.",
   "faq-answer-1-3": "Wer zusätzlich Sachleistungen von einem ambulanten Pflegedienst bezieht, muss die Beratungseinsätze nicht abrufen.",
-  "faq-answer-1-4": "Auch Personen mit Pflegegrad 1 unterliegen keiner Beratungspflicht. Die Beratungseinsätze können dennoch halbjährlich kostenfrei abgerufen werden. Die Beratung dient der Qualitätssicherung in der häuslichen Pflege. Sie ist eine Hilfestellung für häuslich Gepflegte und Pflegende, die im Rahmen des Beratungsgespräches auf Wunsch auch eine pflegefachliche Anleitung oder Unterstützung erhalten. Bei Bedarf werden außerdem Empfehlungen zur Überprüfung beziehungsweise Höherstufung des Pflegegrades erteilt.",
+  "faq-answer-1-4": "Auch Personen mit Pflegegrad 1 unterliegen keiner Beratungspflicht. Die Beratungseinsätze können dennoch von beiden Personengrupoen freiwillig halbjährlich kostenfrei abgerufen werden. Die Beratung dient der Qualitätssicherung in der häuslichen Pflege. Sie ist eine Hilfestellung für häuslich Gepflegte und Pflegende, die im Rahmen des Beratungsgespräches auf Wunsch auch eine pflegefachliche Anleitung oder Unterstützung erhalten. Bei Bedarf werden außerdem Empfehlungen zur Überprüfung beziehungsweise Höherstufung des Pflegegrades erteilt.",
 
-  "faq-question-2": "Warum ist die Pflegeberatung kostenlos?",
+  "faq-question-2": "Was kostet eine Pflegeberatung?",
   "faq-answer-2-1": "Die Pflegeberatung ist für Pflegebedürftige kostenlos, da die Pflegekasse die Kosten der Beratungseinsätze übernimmt.",
   "faq-answer-2-2": "Sie können als Versicherte die Beratung durch einen Pflegedienst, eine qualifizierte Pflegefachkraft wie mich oder in einem Pflegestützpunkt erhalten.",
 
@@ -94,7 +94,7 @@
   "faq-answer-3-1": "Die Intervalle der Pflegeberatung variieren abhängig vom Pflegegrad. Dies ist auch verständlich, denn je höher der Pflegegrad ist, desto höher ist der mit der häuslichen Pflege verbundene Aufwand und auch die damit einhergehende Verantwortung. Daher muss die Pflegeberatung für Pflegegrad 2 und 3 alle sechs Monate, für Pflegegrad 4 und 5 alle drei Monate abgerufen werden. Die Zeiträume werden seitens der Pflegekasse fest vorgegeben:",
   "faq-answer-3-2": "Bitte beachten Sie, dass sich die vorstehenden Fristen nicht auf den Beratungseinsatz selbst, sondern auf den Nachweis über eben diesen Beratungseinsatz beziehen. Das heißt, für den ersten Beratungstermin im Jahr muss für Pflegegrad 2 und 3 der Nachweis zum 30. Juni bei der Pflegekasse eingegangen sein, für Pflegegrad 4 und 5 entsprechend zum 31. März.",
   
-  "faq-question-4": "Was passiert, wenn ich ein Beratungstermin versäume?",
+  "faq-question-4": "Beratungstermin verpasst - Was nun?",
   "faq-answer-4-1": "Wenn Sie zum ersten Mal einen Beratungstermin versäumen, erhalten Sie ein Erinnerungsschreiben der Pflegekasse. In diesem Fall empfehle ich Ihnen sofort zu reagieren und einen Termin mit mir zu vereinbaren! Weisen Sie innerhalb der genannten Frist einen Nachweis über eine Beratung ein, passiert nichts.",
   "faq-answer-4-2": "Kommen Sie der Nachweispflicht nicht nach, wird das Pflegegeld ab dem ersten des Folgemonats gekürzt, in der Regel um 50 Prozent. Werden Beratungseinsätze wiederholt versäumt, wird das Pflegegeld zum ersten des Folgemonats vollständig einbehalten.",
   
@@ -114,14 +114,14 @@
   "faq-answer-6-10": "Praktische Tipps zur aktuellen Alltagssituation der Pflegeperson",
   
   "faq-question-7": "Wie wird eine Pflegeberatung nach § 37 Abs. 3 SGB XI nachgewiesen?",
-  "faq-answer-7": "Den Beratungsbesuch müssen Sie als pflegebedürftige Person oder als pflegender Angehöriger nicht selbst nachweisen. Die Person, die den Beratungsbesuch bei Ihnen durchführt, füllt das Formular „Nachweis über einen Beratungseinsatz nach § 37 Abs. 3 SGB XI“ aus und übermittelt dieses an Ihre Pflegekasse.",
+  "faq-answer-7": "Den Beratungsbesuch müssen Sie als pflegebedürftige Person oder als pflegender Angehöriger nicht selbst nachweisen. Die Person, die den Beratungsbesuch bei Ihnen durchführt, füllt das Formular „Nachweis über einen Beratungseinsatz nach § 37 Abs. 3 SGB XI“ aus und übermittelt dieses an Ihre Pflegekasse. Es wird also bei jedem Beratungsbesuch ein Besuchsbericht erstellt, der mit Zustimmung des Pflegebedürftigen an die Pflegekasse übersandt wird. Darin wird mitgeteilt, ob die häusliche Pflege sichergestellt ist, aber auch, ob es beispielsweise einen Bedarf an Pflegehilfsmitteln gibt.",
   
   "faq-question-8": "Wie bereite ich mich auf einen Beratungsbesuch vor?",
   "faq-answer-8-1": "Gerne können Sie schon einmal Ihre Unterlagen bereithalten. Hierzu zählen Ihr Versichertenkärtchen, der Pflegegrad-Bescheid und eventuell vorhandene ärztliche Gutachten.",
   "faq-answer-8-2": "Nutzen Sie die Gelegenheit und notieren sich vor ab Ihre Fragen.",
 
   "faq-highlight-title-1": "Ihre Frage ist nicht dabei?",
-  "faq-highlight-title-2": "Lassen Sie es uns wissen!",
+  "faq-highlight-title-2": "Lassen Sie es mich wissen!",
   
   "contact-title": "Ich bin für Sie da - schreiben Sie mir einfach!",
   "contact-subtitle": "Haben Sie Fragen oder benötigen Unterstützung? Füllen Sie das Kontaktformular aus, und ich melde mich schnellstmöglich bei Ihnen.",
